@@ -4,7 +4,7 @@ jobs:
   job-1:
     runs-on: ubuntu-latest
     steps:
-      - name: printGreeting
-        run: echo "The step number: 1 is initialized....."
-      - name: EndOfExecution
-        run: echo "The execution of job-1 is over with all of the steps.."
+      - name: init
+        run: echo "The initialization of job#1 is started"
+      - name: finishProcess
+        run: echo "The job was accomplished"
