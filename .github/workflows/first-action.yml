@@ -7,4 +7,4 @@ jobs:
       - name: printGreeting
         run: echo "The step #1 is initialized....."
       - name: EndOfExecution
-        run: "The execution of job-1 is over with all of the steps.."
+        run: echo "The execution of job-1 is over with all of the steps.."
