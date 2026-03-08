@@ -1,0 +1,10 @@
+name: workflow-1
+on: workflow_dispatch
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printGreeting
+        run: echo "The step #1 is initialized....."
+      - name: EndOfExecution
+        run: "The execution of job-1 is over with all of the steps.."
